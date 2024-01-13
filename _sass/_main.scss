@@ -1,7 +1,8 @@
-@import 'fonts';
-@import 'colors';
-@import 'header';
-@import 'dimensions';
+@import 'config/fonts';
+@import 'config/colors';
+@import 'config/dimensions';
+@import 'partials/header';
+@import 'partials/footer';
 
 body {
     background-color: $body-bg-color;
@@ -33,17 +34,6 @@ body {
         padding-right: $spacing-unit;
         padding-left: $spacing-unit;
     }
-}
-
-
-.site-footer {
-    padding: $side-padding $side-padding $side-padding $side-padding;
-    color: $baby-powder;
-
-    background-color: $header-bg-color;
-    border-top-style: $border-shade-style;
-    border-top-color: $fire-engine-red;
-    border-top-width: $border-shade-width;
 }
 
 .page-content {

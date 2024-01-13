@@ -1,7 +1,8 @@
-@import 'fonts';
-@import 'colors';
-@import 'header';
-@import 'dimensions';
+@import 'config/fonts';
+@import 'config/colors';
+@import 'config/dimensions';
+@import 'partials/header';
+@import 'partials/footer';
 
 /**
  * Clearfix
@@ -40,12 +41,7 @@
     color: $raisin-black;
 }
 
-.site-title {
-    font-family: 'Grenze Gotisch', serif;
-    font-family: 'Nunito Sans', sans-serif;
-    text-transform: uppercase;
-    padding-left: $side-padding;
-}
+
 
 .side-padding-left {
     padding-left: $side-padding;
