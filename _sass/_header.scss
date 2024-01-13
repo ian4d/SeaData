@@ -1,0 +1,31 @@
+@import 'fonts';
+@import 'colors';
+@import 'dimensions';
+
+
+.site-title {
+    font-family: 'Grenze Gotisch', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:visited {
+        color: #ffffff;
+    }
+}
+
+.site-nav {
+    padding-right: $side-padding;
+    color: #ffffff;
+}
+
+.site-header {
+    background-color: $header-bg-color;
+    border-bottom-style: $border-shade-style;
+    border-bottom-color: $fire-engine-red;
+    border-bottom-width: $border-shade-width;
+}
+
+.page-link {
+    color: #ffffff;
+}

@@ -1,0 +1,52 @@
+@import 'fonts';
+@import 'colors';
+@import 'header';
+@import 'dimensions';
+
+body {
+    background-color: $body-bg-color;
+    color: $font-color;
+    font-family: 'Lato';
+}
+
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.data-wrapper {
+    max-width: calc($data-width - $spacing-unit);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit * .5;
+    padding-left: $spacing-unit * .5;
+    @extend %clearfix;
+
+    @media screen and (min-width: $on-large) {
+        max-width: calc($content-width - $spacing-unit * 2);
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+    }
+}
+
+
+.site-footer {
+    padding: $side-padding $side-padding $side-padding $side-padding;
+    color: $baby-powder;
+
+    background-color: $header-bg-color;
+    border-top-style: $border-shade-style;
+    border-top-color: $fire-engine-red;
+    border-top-width: $border-shade-width;
+}
+
+.page-content {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
