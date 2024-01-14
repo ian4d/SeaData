@@ -14,3 +14,12 @@ $side-padding: 2rem;
 
 $border-shade-width: 2px;
 $border-shade-style: solid;
+
+
+.side-padding-left {
+    padding-left: $side-padding;
+}
+
+.side-padding-right {
+    padding-right: $side-padding;
+}

@@ -5,3 +5,4 @@
 layout: home
 ---
 
+SEAVIZ is a playground for visualizations of data offered via the <a href="https://data.seattle.gov/">Seattle Open Data</a> project.

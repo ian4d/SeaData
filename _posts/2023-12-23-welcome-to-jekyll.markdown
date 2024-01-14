@@ -1,5 +1,5 @@
 ---
-layout: data
+layout: post
 title: "Fremont Bridge Crossing Diff"
 date: 2023-12-23 14:11:13 -0800
 categories: jekyll update

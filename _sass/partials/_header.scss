@@ -1,8 +1,3 @@
-@import 'config/fonts';
-@import 'config/colors';
-@import 'config/dimensions';
-
-
 .site-title {
     color: #ffffff;
 
@@ -10,13 +5,13 @@
         color: #ffffff;
     }
 
-
-        font-family: 'Grenze Gotisch', serif;
-        font-family: 'Nunito Sans', sans-serif;
-        text-transform: uppercase;
-        padding-left: $side-padding;
-
-
+    
+    font-family: 'Grenze Gotisch',
+    serif;
+    font-family: 'Nunito Sans',
+    sans-serif;
+    text-transform: uppercase;
+    padding-left: $side-padding;
 }
 
 .site-nav {

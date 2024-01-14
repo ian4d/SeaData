@@ -6,4 +6,10 @@
     border-top-style: $border-shade-style;
     border-top-color: $fire-engine-red;
     border-top-width: $border-shade-width;
+
+    a {
+        &:visited, &:hover {
+            text-decoration: none;
+        }
+    }
 }
